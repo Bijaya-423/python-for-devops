@@ -21,6 +21,3 @@ print("Hello Dosto")
 
 
 
-
-
-
