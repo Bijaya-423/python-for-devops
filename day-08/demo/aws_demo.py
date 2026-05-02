@@ -16,3 +16,4 @@ if __name__ == "__main__":
     aws_utils = AWSUtils()
     aws_utils.show_buckets()
     print(aws_utils.buckets)
+    
