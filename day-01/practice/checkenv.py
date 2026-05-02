@@ -3,6 +3,7 @@ Get the Enviornment from user and print it
 env = input("Enter the env:- ")
 print("The enviornment is:-", env)
 
+#----------------------------------------------------------------
 
 a = int(input("Enter the value of a: "))
 #Typecasting - converting one datatype to another datatype
@@ -15,6 +16,7 @@ print("add: ", a+b )
 print("sub: ", a-b )
 print("div: ", a/b )
 
+#--------------------------------------------------------------
 
 a = input("Enter:-")
 print("The value of a is:-", a)
@@ -27,7 +29,7 @@ print(type(b))
 print("The addition of a and b is:-", a+b)
 print("The multiplication of a and b is:-", a*b)
 
-
+#-------------------------------------------------------------
 
 env = input("Enter the enviornment:-")
 print("The enviornment is:-", env)
@@ -41,7 +43,7 @@ elif env == "staging":
 else:
     print("You can do anything.")
 
-
+#--------------------------------------------------------------
 
 env = input("Enter the enviornment:-")
 print("The enviornment is:-", env)
