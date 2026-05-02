@@ -24,3 +24,4 @@ def check_cpu_usage():
 
 check_cpu_usage()
 
+
