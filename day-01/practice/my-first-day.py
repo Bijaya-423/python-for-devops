@@ -11,6 +11,13 @@ print("This is my first day of learning Python.")
 #yes = constant
 #  1 = constant
 # 100 = constant
-output = "yes"
+
+
+output = "yes" # variable
 output = "no"
+
+
+a = 100
+b = 200
+env = "testing, staging, production, development"
 print("Hello dosto")
