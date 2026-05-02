@@ -1,4 +1,4 @@
-Get the Enviornment from user and print it
+# Get the Enviornment from user and print it
 
 env = input("Enter the env:- ")
 print("The enviornment is:-", env)
@@ -27,7 +27,7 @@ print("The value of b is:-", b)
 print(type(b))
 
 print("The addition of a and b is:-", a+b)
-print("The multiplication of a and b is:-", a*b)
+# print("The multiplication of a and b is:-", a*b)
 
 #-------------------------------------------------------------
 
@@ -54,3 +54,18 @@ elif env == "staging":
     print("Take backup and test well.")
 else:
     print("Safe to deploy any day.")
+
+
+
+server = input("Enter the server:-")
+
+print("The server is:-", server)
+
+if server == "ec2":
+    print("you can use aws cli to manage the ec2 instance.")
+
+elif server == "s3":
+    print("you can store your data or files in s3 bucket")
+
+else:
+    print("you can use any other server to deploy your application.")
