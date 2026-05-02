@@ -23,4 +23,3 @@ def check_cpu_usage():
         print(f"cpu in safe state.")
 
 check_cpu_usage()
-
