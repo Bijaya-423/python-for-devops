@@ -77,3 +77,8 @@ print(type(z))
 print(f"The concatenation of x and y is:-{x}+{y}")
 
 print(y + z)
+
+
+# file writtern in python 
+# snake_case = "This is snake case"
+# camelCase = "This is camel case"
