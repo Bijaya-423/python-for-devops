@@ -9,13 +9,13 @@
 # print(type(a))
 # print(a)
 
-a = [100, 200, 300, True, 4.3, None]
-print(type(a))
-a.append(400)
-print(a)
+# a = [100, 200, 300, True, 4.3, None]
+# print(type(a))
+# a.append(400)
+# print(a)
 
 clouds = list()
-print(type(clouds))
+# print(type(clouds))
 
 clouds.append("AWS")
 clouds.append("GCP")
@@ -25,23 +25,34 @@ clouds.append("Alibaba")
 clouds.append("Salesforce")
 clouds.append("utho")
 clouds.append("oracle")
-print(clouds)
+# print(clouds)
 clouds.append("Azure")
 print(clouds)
 
-print(len(clouds))
+# print(len(clouds))
 
-print("world leader for cloud service provided is :", clouds[0])
-print("indian cloud service provider is :", clouds[6])
-print("indian cloud service provider is :", clouds[-3])
+# print("world leader for cloud service provided is :", clouds[0])
+# print("indian cloud service provider is :", clouds[6])
+# print("indian cloud service provider is :", clouds[-3])
 
-print(dir(clouds))
+# print(dir(clouds))
 # print(clouds.count.__doc__)
 # print(clouds.reverse.__doc__)
 # print(clouds.append.__doc__)
 # print(clouds.extend.__doc__)
 # print(clouds.insert.__doc__)
 # print(clouds.pop.__doc__)
-print(clouds.sort.__doc__)
+# print(clouds.sort.__doc__)
 # print(clouds.copy.__doc__)
 # print(clouds.clear.__doc__)
+
+for cloud in clouds:
+    if cloud == "AWS":
+        print(f"World leader for cloud service provided is : {cloud}")
+    elif cloud == "utho" or cloud == "oracle":
+        print(f"indian cloud service provider is : {cloud}")
+    else:
+        print(f"other cloud service provider is : {cloud}")
+
+    # print(cloud)
+    
