@@ -36,6 +36,3 @@ def api_bird():
 api_bird()
 
 
-
-
-
