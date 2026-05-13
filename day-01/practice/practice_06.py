@@ -6,8 +6,21 @@ path = "d:/DEVOps/python-for-devops/day-01/practice/"
 
 count = 0
 
-for file in os.listdir(path):
-    if file.endswith(".log") or file.endswith(".py"):
-        count += 1
+# for file in os.listdir(path):
+#     if file.endswith(".log") or file.endswith(".py"):
+#         count += 1
 
+# print(f"Total log and python files are:- {count}")
+
+
+
+for folder , subfolder, files in os.walk(path):
+    for file in files:
+        if file.endswith(".log") or file.endswith(".py"):
+            count += 1
 print(f"Total log and python files are:- {count}")
+
+
+
+# os.listdir -> current folder only
+# os.walk -> current folder + subfolder
