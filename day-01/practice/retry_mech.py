@@ -2,7 +2,7 @@ import requests
 import time
 
 
-url = "https://api.github.com"
+url = "https://api.github.com/2"
 
 attempt = 1
 
