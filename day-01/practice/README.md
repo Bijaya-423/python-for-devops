@@ -1,7 +1,7 @@
 1. Loops Practice Questions
 ===========================
 
-Beginner Level
+Beginner Level  - > COMPLETED
 ==============
 
 - Print numbers from 1 to 50 using a for loop.
