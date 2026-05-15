@@ -34,5 +34,3 @@ while index <= len(data)-1:
 # print("*"*50)
 
 # print(data[7])
-for user in data:
-    print(user)
