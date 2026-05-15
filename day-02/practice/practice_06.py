@@ -13,6 +13,6 @@ for user in data:
         print(user["email"])
     # print("Address:", user["address"]["city"])
 
-    with open("user1.json", "w") as file:
-        json.dump(user, file, indent=8)
-    print("Data saved to user.json")
+        with open("user1.json", "w") as file:
+            json.dump(user, file, indent=8)
+    print("Data saved to user1.json")

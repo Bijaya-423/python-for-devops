@@ -1,23 +1,23 @@
 {
-        "id": 10,
-        "name": "Clementina DuBuque",
-        "username": "Moriah.Stanton",
-        "email": "Rey.Padberg@karina.biz",
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
         "address": {
-                "street": "Kattie Turnpike",
-                "suite": "Suite 198",
-                "city": "Lebsackbury",
-                "zipcode": "31428-2261",
+                "street": "Norberto Crossing",
+                "suite": "Apt. 950",
+                "city": "South Christy",
+                "zipcode": "23505-1337",
                 "geo": {
-                        "lat": "-38.2386",
-                        "lng": "57.2232"
+                        "lat": "-71.4197",
+                        "lng": "71.7478"
                 }
         },
-        "phone": "024-648-3804",
-        "website": "ambrose.net",
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
         "company": {
-                "name": "Hoeger LLC",
-                "catchPhrase": "Centralized empowering task-force",
-                "bs": "target end-to-end models"
+                "name": "Considine-Lockman",
+                "catchPhrase": "Synchronised bottom-line interface",
+                "bs": "e-enable innovative applications"
         }
 }
