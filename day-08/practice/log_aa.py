@@ -14,6 +14,10 @@ class LogAnalyzer:
         with open(self.file_name, 'r') as file:
             # lines.append(file.readlines())
             return file.readlines()
+    
+    def write_json(self, data):
+        with open(self.output_file, "w+") as json_file:
+            json.dump(data, json_file)
         
 
 
@@ -38,11 +42,10 @@ class LogAnalyzer:
                 # continue
                 pass
 
-        return log_count
+        # return log_count
+        self.write_json(log_count)
 
-    def write_json(self, data):
-        with open(self.output_file, "w+") as json_file:
-            json.dump(data, json_file)
+    
 
 
 # lines = read_logs()
@@ -54,10 +57,10 @@ class LogAnalyzer:
 log_obj = LogAnalyzer("app_analyzer.log", "out_analyzer.json")
 
 log_count = log_obj.analyzer()
-log_obj.write_json(log_count)
+# log_obj.write_json(log_count)
 
 log_obj = LogAnalyzer("app2.log", "out_analyzer2.json")
 log_count = log_obj.analyzer()
-log_obj.write_json(log_count)
+# log_obj.write_json(log_count)
 
 
