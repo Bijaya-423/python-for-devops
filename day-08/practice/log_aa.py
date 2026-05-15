@@ -46,13 +46,12 @@ class LogAnalyzer:
 
 
 # lines = read_logs()
-
 # counts = analyzer(lines)
-
 # print(f'"LOG counts are": {counts}')
 # write_json(counts)
 
-log_obj = LogAnalyzer("app.log", "out.json")
+log_obj = LogAnalyzer("app2.log", "out_analyzer2.json")
+# log_obj = LogAnalyzer("app_analyzer.log", "out_analyzer.json")
 
 log_count = log_obj.analyzer()
 log_obj.write_json(log_count)
