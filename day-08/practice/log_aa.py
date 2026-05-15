@@ -59,3 +59,5 @@ log_obj.write_json(log_count)
 log_obj = LogAnalyzer("app2.log", "out_analyzer2.json")
 log_count = log_obj.analyzer()
 log_obj.write_json(log_count)
+
+
