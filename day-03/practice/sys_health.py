@@ -9,3 +9,4 @@ def check_system_health():
     print(f"Memory Usage: {memory}%")
     print(f"Disk Usage: {disk}%")
 check_system_health()
+
