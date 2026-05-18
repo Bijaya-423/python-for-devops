@@ -47,10 +47,50 @@
 
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-response = requests.get(
-    "https://google.com",
-    timeout=10
-)
+url = "https://newsdata.io/api/1/latest?apikey=pub_e5b7d5ea71c14f789a5ca5484e2888ea&q=petrol"
 
-print(response.status_code)
+
+def public_api():
+    session = requests.Session()
+
+    retry = Retry(
+        total=3,
+        backoff_factor=2
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+    try:
+        response = session.get(
+            url,
+            headers=headers,
+            timeout=30
+        )
+        print("Status Code:", response.status_code)
+        if response.status_code == 200:
+            print("APIs Workings")
+            data = response.json()
+            news_list = data["results"]
+
+            for news in news_list:
+
+                if "india" in news["country"]:
+
+                    print("\nTitle:", news["title"])
+
+                    print("Country:", news["country"])
+
+                    print("Source:", news["source_name"])
+
+                    print("------------------------")
+        else:
+            print("APIs Failed")
+    except Exception as e:
+        print("Error:", e)
+
+public_api()
