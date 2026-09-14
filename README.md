@@ -8,6 +8,7 @@ The focus is not on Python syntax alone, but on thinking like a DevOps engineer 
 
 ---
 
+
 ## Objective
 
 By the end of this repository, learners should be confident enough to say:
