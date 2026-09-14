@@ -6,7 +6,6 @@ It is designed to help beginners and DevOps aspirants learn how to use Python fo
 
 The focus is not on Python syntax alone, but on thinking like a DevOps engineer using Python.
 
-
 ---
 
 ## Objective
