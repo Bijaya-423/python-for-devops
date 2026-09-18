@@ -21,7 +21,6 @@ You will use **FastAPI** to build a **simple DevOps-style API**.
 You will create a small FastAPI application with endpoints like:
 
 
-
 - `/health`  
   Returns a simple health status
 
