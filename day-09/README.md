@@ -92,7 +92,6 @@ FastAPI helps DevOps engineers:
 3. Test endpoints using browser / curl / Postman
 4. Commit and push your changes to your fork
 
-
 ## Learn in Public
 
 Share your progress on LinkedIn:
