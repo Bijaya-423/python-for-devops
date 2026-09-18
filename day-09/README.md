@@ -23,6 +23,7 @@ You will create a small FastAPI application with endpoints like:
 - `/health`  
   Returns a simple health status
 
+
 - `/logs`  
   Runs your log analyzer logic and returns summary
 
