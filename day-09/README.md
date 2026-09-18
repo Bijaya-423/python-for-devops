@@ -14,7 +14,6 @@ Today, you will learn how DevOps engineers:
 - Expose it using HTTP endpoints
 - Build internal tools for teams
 
-
 You will use **FastAPI** to build a **simple DevOps-style API**.
 
 ## What You Will Build
