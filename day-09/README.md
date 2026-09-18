@@ -16,8 +16,6 @@ Today, you will learn how DevOps engineers:
 
 You will use **FastAPI** to build a **simple DevOps-style API**.
 
-
-
 ## What You Will Build
 
 You will create a small FastAPI application with endpoints like:
